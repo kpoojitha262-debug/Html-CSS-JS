@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - My Grocery Store</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <header>
+        <h1>🛒 My Grocery Store</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="cart.html">Cart</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Our Products</h2>
+        <div class="product-list">
+            <div class="product">
+                <h3>Apple 🍎</h3>
+                <p>Fresh red apples - $2/kg</p>
+                <button onclick="addToCart('Apple', 2)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <h3>Banana 🍌</h3>
+                <p>Organic bananas - $1.5/kg</p>
+                <button onclick="addToCart('Banana', 1.5)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <h3>Tomato 🍅</h3>
+                <p>Fresh tomatoes - $1.2/kg</p>
+                <button onclick="addToCart('Tomato', 1.2)">Add to Cart</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My Grocery Store. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
